@@ -69,6 +69,7 @@ gem 'bootstrap', '4.0.0.alpha6'
 gem 'tether-rails'
 gem 'simple_form'
 gem 'devise'
+gem 'factory_bot_rails'
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
