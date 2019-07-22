@@ -70,6 +70,9 @@ gem 'tether-rails'
 gem 'simple_form'
 gem 'devise'
 gem 'factory_bot_rails'
+gem 'carrierwave'
+gem 'figaro'
+gem 'fog-aws'
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
