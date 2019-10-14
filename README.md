@@ -1,24 +1,37 @@
-# README
+# Grammable
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Grammable is a simple Instagram clone built using automated software tests (Test-Driven Development) in Ruby. 
 
-Things you may want to cover:
+## Installation
 
-* Ruby version
+First, run bundle install:
 
-* System dependencies
+```bash
+bundle install
+```
 
-* Configuration
+Second, create a database:
 
-* Database creation
+```bash
+rake db:create
+```
+```bash
+rake db:migrate
+```
 
-* Database initialization
+Third, start your local host:
 
-* How to run the test suite
+```bash
+rails s
+```
 
-* Services (job queues, cache servers, search engines, etc.)
+## Deployed App
 
-* Deployment instructions
+https://grammable-travis-watson.herokuapp.com
 
-* ...
+## Screenshots
+
+<div align="center">
+    <img src="https://i.postimg.cc/C5GL8snJ/grammable1.png" width="400px"</img>
+    <img src="https://i.postimg.cc/7h8ZbWhf/grammable2.png" width="400px"</img> 
+</div>
